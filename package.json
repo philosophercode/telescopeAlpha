@@ -1,0 +1,43 @@
+{
+  "name": "telescope",
+  "version": "1.0.0",
+  "description": "the web in a box",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/philosophercode/telescopeAlpha.git"
+  },
+  "keywords": [
+    "telescope",
+    "web",
+    "box",
+    "cosmic",
+    "internet"
+  ],
+  "author": "Isaac S",
+  "license": "Copyright",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "chrome-launcher": "^0.1.3",
+    "chrome-remote-interface": "^0.23.2",
+    "cloudinary": "^1.9.0",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "isomorphic-fetch": "^2.2.1",
+    "method-override": "^2.3.8",
+    "morgan": "^1.8.1",
+    "path": "^0.12.7",
+    "pg-promise": "^5.6.7",
+    "word-freq": "0.0.8"
+  },
+  "devDependencies": {
+    "jest": "^19.0.2"
+  }
+}

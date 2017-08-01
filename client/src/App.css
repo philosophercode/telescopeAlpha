@@ -1,0 +1,125 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}*/
+
+.App {
+  text-align: center;
+  color: green;
+  /*background-color: lightcyan;*/
+  background-color: black;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  width: 130px;
+  padding: 20px;
+  float: left;
+}
+
+.App-header {
+  /*background-color: #222;*/
+  background-color: black;
+  height: 130px;
+  padding-top: 20px;
+  position: fixed;
+  width: 100%;
+}
+
+.App-header h2{
+
+  color: white;
+}
+
+.dropdown {
+  float: right;
+  right: 20px;
+  top: -20px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+.headerSpace {
+  height: 150px;
+}
+
+.footerSpace {
+  height: 70px;
+}
+
+/*a {
+  display: flex;
+  flex-direction: column;
+}*/
+
+#screenshot-list {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+img {
+  width: 30%;
+  margin: 1%;
+}
+
+
+/*.screenshotImage {
+  height: 30%;
+  width: 30%;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0px 0px 20px #888888;
+}*/
+
+.screenshotImage:hover {
+  box-shadow: 0px 0px 5px #888888;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.App-footer {
+  bottom: 0;
+  /*background-color: #222;*/
+  background-color: black;
+  height: 60px;
+  line-height: 1em;
+  padding-top: 20px;
+  position: fixed;
+  width: 100%;
+}
+
+.App-footer h2{
+  font-size: 16px;
+}
+
+
+
